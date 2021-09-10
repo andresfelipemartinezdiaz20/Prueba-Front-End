@@ -1,0 +1,209 @@
+body {font-family: Arial;}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+
+  &:hover {
+    background-color: #ddd;
+  }
+
+  &.active {
+    background-color: #ccc;
+  }
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 13.333px;
+  line-height: 1.1px;
+  color: #CB253C;
+  margin: 0 0 8px;
+}
+
+h2 {
+  font-size: 27.65px;
+  line-height: 32px;
+  color: #6B7280;
+  font-weight: 400px;
+  margin: 0 0 48px;
+}
+
+h1 {
+  font-size: 39.81px;
+  line-height: 48px;
+  color: #111;
+  font-weight: 700;
+  margin: 0;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.mat-tab-label-content {
+  background: url("/assets/images/image.png") center center no-repeat;
+}
+
+.price {
+  label {
+    font-size: 13.33px;
+    color: #6B7280;
+    line-height: 16px;
+    font-weight: 400;
+  }
+
+  .price-product {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #111;
+    margin: 8px 0 48px;
+  }
+
+}
+
+.mat-tab-label.mat-focus-indicator{
+  line-height: 24px;
+  font-size: 19.2px;
+  color: #6B7280;
+  font-weight: 500;
+}
+
+.ng-star-inserted {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6B7280;
+  margin: 14px 0;
+}
+
+.row {
+  margin: 72px 0 0;
+  
+  .choose {
+    width: 100%;
+    display: block;
+    line-height: 24px;
+    font-size: 19.2px;
+    color: #111;
+    font-weight: 500;
+  }
+}
+
+.tagets,
+.cards {
+
+  list-style: none;
+  padding: 0;
+
+  .target,
+  .card{
+    border: 2px solid #EEEFF2;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+
+    &:hover {
+      border: 2px solid #B6BCC6;
+      cursor: pointer;
+    }
+
+    &:focus {
+      border: 2px solid #1E96D4;
+    }
+  }
+
+  label {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #111;
+    margin: 0 0 8px;
+  }
+
+  p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+    font-weight: 400;
+  }
+}
+
+.tagets {
+  display: flex;
+}
+
+.cards{
+  .card {
+    margin: 0 0 16px;
+    padding: 24px 50px 24px 24px;
+  }
+
+  .price {
+    position: absolute;
+    right: 24px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: max-content;
+  }
+}
+
+.tagets {
+  .target {
+    margin: 0 30px 0 0;
+    &:last-child {
+      margin: 0 auto;
+    }
+  }
+}
+
+.ext {
+  margin: 73px 0 0;
+
+  h3 {
+    font-size: 19.2px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #111;
+    width: 100%;
+    border-bottom: 1px solid #EEEFF2;
+    padding: 0 0 17px;
+    margin:  0 auto;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    border-bottom: 1px solid #EEEFF2;
+    padding: 17px 0;
+    display: flex;
+
+    p {
+      margin: 0 0 0 auto;
+      padding: 0 0 0 16px;
+    }
+  }
+}
