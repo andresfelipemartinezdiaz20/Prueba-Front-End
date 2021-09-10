@@ -1,5 +1,7 @@
 Buenas noches:
 
+se trabajo sobre la rama master
+
 Actualmente solo pude enviar la parte de Angular un poco inconclusa de acuerdo a lo que alcance durante las 8 horas
 
 se pensaba en desarrollar con un drupal limpio (Drupal 9 ó Drupal 8) de la siguiente manera
